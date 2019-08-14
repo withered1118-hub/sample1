@@ -11,7 +11,6 @@ class UserSignupTest < ActionDispatch::IntegrationTest
     end
     assert_template 'users/new'
   end
-<<<<<<< HEAD
 
   test "valid signup information" do
     get signup_path
@@ -24,6 +23,4 @@ class UserSignupTest < ActionDispatch::IntegrationTest
     follow_redirect!
     assert_template 'users/show'
   end
-=======
->>>>>>> sign-up
 end
